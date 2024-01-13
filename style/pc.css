@@ -1,0 +1,44 @@
+:root {
+    --color1: #080808;
+    --color2: #d6d6d6;
+    --color3: #a5a5a5;
+}
+* {
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: #d6d6d6;
+    scrollbar-width: none;
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html, body {
+    background: var(--color2);
+    transition: .3s;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: var(--color1);
+    width: 100vw;
+    height: 100vh;
+}
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 18%;
+}
