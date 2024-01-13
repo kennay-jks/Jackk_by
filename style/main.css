@@ -14,7 +14,7 @@
     scrollbar-width: none;
     list-style: none;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -53,6 +53,15 @@ main {
     width: 100%;
     height: 82%;
     border-radius: 45% 45% 0% 0% / 14% 14% 25% 25%;
+}
+.env-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+    padding-top: 25px;
 }
 .perfil {
     display: flex;
@@ -104,7 +113,7 @@ h1 {
     align-items: center;
     width: 75%;
     height: auto;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 .env-copy p {
     text-align: center;
@@ -117,7 +126,7 @@ h1 {
     gap: 15px;
     width: 80%;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 .prod {
     display: flex;
@@ -128,6 +137,7 @@ h1 {
     height: 80px;
     border-radius: 100px;
     padding: 15px;
+    overflow: hidden;
 }
 .prod-img {
     background: var(--color3);
